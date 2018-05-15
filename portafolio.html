@@ -12,7 +12,7 @@
 
 </head>
 <header>
-    <nav class="navbar navbar-light bg-light shadow">
+    <nav class="navbar navbar-light bg-light shadow fixed-top mb-5">
         <span class="navbar-brand mb-0 ml-5 mt-0 h1 bg-info p-4 text-white" style="font-family: 'Abril Fatface', cursive; font-size: 40px">Your Name</span>
 
         <ul class="nav nav-pills justify-content-end">
@@ -29,13 +29,61 @@
     </nav>
 </header>
 
-<body background="img/bg.jpg">
+<body background="assets/img/bg.png" class="mt-5 pt-5">
+    <div class="container p-5">
+        <!--layout: defines the "boxes" of the layout to utilize on the website-->
+        <div class="row">
+            <!--Column with width 8 to use as the Main Column-->
+            <div class="col-xl-8">
+                <div class="jumbotron bg-light">
+                    <!--Row 1: Title-->
+                    <div class="row">
+                        <div class="col-xl-12 border-bottom mb-4" style="border-width: 10px">
+                            <h1 style="font-family: 'Abril Fatface', cursive; font-size: 40px">Portafolio</h1>
+                        </div>
+                    </div>
+
+                    <!--Row 2: Content-->
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="text-white">
+                                <img class="card-image" src="assets/img/p1.jpg" alt="Word Guess" width="270px" height="300px" />
+                                <div class="card-img-overlay">
+                                    <p class="card-text bg-info text-center">Word Guess</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xl-6 p-2">
+                            <img class="img-thumbnail" src="assets/img/p2.png" width="270px" height="300px" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 p-2">
+                            <img class="img-thumbnail" src="assets/img/p3.jpg" width="270px" height="300px" />
+                        </div>
+                        <div class="col-xl-6 p-2">
+                            <img class="img-thumbnail" src="assets/img/p4.jpg" width="270px" height="300px" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 p-2">
+                            <img class="img-thumbnail" src="assets/img/p5.jpg" width="270px" height="300px" />
+                        </div>
+                        <div class="col-xl-6 p-2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </body>
 
 <footer>
-    <div class="card fixed-bottom">
+    <div class="card">
         <div class="bg-info" style="height:10px">
 
         </div>
