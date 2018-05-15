@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Contact | Youre</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
@@ -12,7 +12,7 @@
 
 </head>
 <header>
-    <nav class="navbar navbar-light bg-light shadow">
+    <nav class="navbar navbar-light bg-light shadow fixed-top mb-5">
         <span class="navbar-brand mb-0 ml-5 mt-0 h1 bg-info p-4 text-white" style="font-family: 'Abril Fatface', cursive; font-size: 40px">Your Name</span>
 
         <ul class="nav nav-pills justify-content-end">
@@ -29,7 +29,47 @@
     </nav>
 </header>
 
-<body background="assets/img/bg.png">
+<body background="assets/img/bg.png" style="padding-top: 130px">
+    <div class="container p-5">
+        <!--layout: defines the "boxes" of the layout to utilize on the website-->
+        <div class="row">
+            <!--Column with width 8 to use as the Main Column-->
+            <div class="col-xl-9">
+                <div class="jumbotron bg-light">
+                    <!--Row 1: Title-->
+                    <div class="row">
+                        <div class="col-xl-12 mb-4" style="border-bottom-width: thick; border-bottom-style: solid;">
+                            <h1 style="font-family: 'Abril Fatface', cursive; font-size: 40px">Contact</h1>
+                        </div>
+                    </div>
+
+                    <!--Row 2: Content-->
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Name</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Message</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 </body>
 
